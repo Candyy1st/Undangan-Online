@@ -1,8 +1,6 @@
 console.log('Hello!');
 const carouselText = [
-  { text: 'Abdul...', color: 'black' },
-  { text: 'Elizabeth...', color: 'black' },
-  { text: 'Abdul ❤ Elizabeth', color: 'black' },
+  { text: 'Candradewa ❤ Eka', color: 'black' },
 ];
 
 $(document).ready(async function () {
