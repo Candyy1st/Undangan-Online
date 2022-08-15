@@ -1,128 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
+
+    <!-- CSS and Font -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- TITLE -->
+    <title>Candradewa & Eka</title>
   </head>
+
   <body>
-    <!-- NAVIGASI BAR START -->
+    <!-- NAVIGATION BAR -->
     <nav class="navbar">
       <div class="navbar_wrapper">
-        <h4 class="brand sentence" id="sentence">
-          <span id="feature-text"></span>
-          <span class="input-cursor"></span>
-        </h4>
+        <h2 class="brand">Candradewa & Eka</h2>
 
-        <menu class="menu">
-          <a href="#akad">Akad |</a>
-          <a href="#resepsi">Resepsi |</a>
-          <a href="#buku_tamu">Buku Tamu |</a>
-          <a href="#map">Map Lokasi |</a>
-          <a href="#gallery">Gallery |</a>
-        </menu>
+        <main class="navbar_menu">
+          <a href="#akad">Akad</a>
+          <a href="#resepsi">Resepsi</a>
+          <a href="#buku_tamu">Buku Tamu</a>
+          <a href="#maps">Maps</a>
+          <a href="#gallery">Gallery</a>
+        </main>
       </div>
     </nav>
-    <!-- NAVIGASI BAR END -->
-
+    <!-- END NAVIGATION BAR -->
     <main class="container">
-      <!-- HERO START  -->
-      <div class="hero fade-out-image">
+      <!-- HERO -->
+      <div class="hero">
         <p>Pernikahan</p>
-        <h1>Abdul & Elizabeth</h1>
-
-        <p>Jakarta, 10 Oktober 2023</p>
+        <h1>Candradewa & Eka</h1>
+        <p>Bekasi, 04 Juni 2021</p>
       </div>
-      <!-- HERO END  -->
+      <!-- END HERO -->
 
-      <!-- AKAD START -->
+      <!-- AKAD -->
       <section id="akad">
         <h1 class="section_title">Akad Nikah</h1>
-        <div class="section_wrapper">
-          <div class="section_content">
-            <h2>Jakarta, 10 Oktober 2023</h2>
-            <p>Jl. TMII Pintu II , Jakarta Timur</p>
-            <h2>08:00 WIB</h2>
-          </div>
 
+        <div class="section_wrapper">
+          <div class="section_conten">
+            <h2>Bekasi, 04 Juni 2021</h2>
+            <p>Jl. Kemakmuran No.21, Kota Bekasi</p>
+            <h2>13:00 WIB</h2>
+          </div>
           <div class="section_image"></div>
         </div>
       </section>
-      <!-- AKAD END -->
+      <!-- END AKAD -->
 
-      <!-- RESEPSI -->
+      <!-- resepsi -->
       <section id="resepsi">
-        <h1 class="section_title">Resepsi</h1>
+        <h1 class="section_title">Resepsi Nikah</h1>
+
         <div class="section_wrapper">
           <div class="section_image"></div>
-
-          <div class="section_content">
-            <h2>Jakarta, 10 Oktober 2023</h2>
-            <p>Jl. TMII Pintu II , Jakarta Timur</p>
-            <h2>13:00 - 19:00 WIB</h2>
+          <div class="section_conten">
+            <h2>Bekasi, 04 Juni 2021</h2>
+            <p>Jl. Kemakmuran No.21, Kota Bekasi</p>
+            <h2>14:00 - 18:00 WIB</h2>
           </div>
         </div>
       </section>
-      <!-- RESEPSI END -->
+      <!-- END resepsi -->
 
-      <!-- BUKU TAMU START -->
+      <!-- BUKU TAMU -->
       <section id="buku_tamu">
         <h1 class="section_title">Buku Tamu</h1>
+
         <div class="form_wrapper">
           <form class="form_buku_tamu" autocomplete="off">
-            <div class="form_group">
+            <div class="form_grup">
               <label for="fullname">Nama Lengkap</label>
               <input type="text" id="fullname" />
             </div>
 
-            <div class="form_group">
-              <label for="phone">Nomer Telepon</label>
+            <div class="form_grup">
+              <label for="phone">Nomer Telephone</label>
               <input type="tel" id="phone" />
             </div>
 
-            <div class="form_group">
+            <div class="form_grup">
               <label for="email">Email</label>
               <input type="email" id="email" />
             </div>
 
-            <div class="form_group">
-              <label for="address">Alamat</label>
-              <input type="address" id="address" />
+            <div class="form_grup">
+              <label for="alamat">Alamat</label>
+              <input type="text" id="alamat" />
             </div>
 
-            <button type="submit">Kirim</button>
+            <button type="submit">Submit</button>
           </form>
         </div>
       </section>
-      <!-- BUKU TAMU END -->
+      <!-- END BUKU TAMU -->
 
-      <!-- MAP START  -->
-      <section id="map">
-        <h1 class="section_title">Peta Resepsi</h1>
+      <!-- MAPS -->
+      <section id="maps">
+        <h1 class="section_title">Maps Resepsi</h1>
+
         <div class="section_wrapper">
-          <div class="section_content">
-            <button class="btn_map">
-              <span class="material-symbols-outlined"> location_on </span
-              >Dapatkan Lokasi
+          <div class="section_conten">
+            <button class="btn_maps">
+              <span class="material-symbols-outlined"> home_pin </span>Get
+              Location
             </button>
-            <button class="btn_map">
-              <span class="material-symbols-outlined"> calendar_month </span
-              >Save ke Kalender
+            <button class="btn_maps">
+              <span class="material-symbols-outlined"> event </span>Save To
+              Callender
             </button>
-            <button class="btn_map">
-              <span class="material-symbols-outlined"> share </span>Share ke
+            <button class="btn_maps">
+              <span class="material-symbols-outlined"> share </span>Share
               Instagram
             </button>
           </div>
-          <!-- IFRAME MAP START -->
-          <div class="section_map">
+          <!-- INFRAME MAP -->
+          <div class="section_maps">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5310240459985!2d106.81996341512557!3d-6.193441895516327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f421118d0d03%3A0x8e32bdf52d13087c!2sGrand%20Hyatt%20Jakarta!5e0!3m2!1sid!2sid!4v1660354926002!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1776715853216!2d106.99420043832116!3d-6.240299594019799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c3e113f3519%3A0x1fea8d359219ceb!2sPonyo%20Bekasi!5e0!3m2!1sid!2sid!4v1660550955373!5m2!1sid!2sid"
               width="600"
               height="450"
               style="border: 0"
@@ -131,84 +133,57 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <!-- IFRAME MAP END  -->
+          <!-- END INFRAME MAP -->
         </div>
       </section>
-      <!-- MAP END  -->
+      <!-- END MAPS -->
 
-      <!-- GALLERY START -->
+      <!-- GALLERY -->
 
       <section id="gallery">
-        <h1 class="section_title">Gallery</h1>
+        <h1 class="section_title">Gallery Wedding</h1>
         <div class="section_wrapper">
-          <div class="gallery_list fade-in-image">
+          <div class="gallery_list">
             <img
-              src="https://drive.google.com/file/d/1WGDzlCf3aX8aL5yebeepdgZdPv6bkoEr/view?usp=sharing"
-              alt="gallery pertama"
+              src="https://github.com/Candyy1st/Undangan-Online/blob/main/BALL0490.jpg?raw=true"
+              alt="Gallery Satu"
             />
-
             <img
-              src="https://images.pexels.com/photos/1573007/pexels-photo-1573007.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
+              src="https://github.com/Candyy1st/Undangan-Online/blob/main/BALL0435.JPG?raw=true"
+              alt="Gallery Dua"
             />
-
             <img
-              src="https://images.pexels.com/photos/931796/pexels-photo-931796.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
-            />
-
-            <img
-              src="https://images.pexels.com/photos/1244700/pexels-photo-1244700.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
+              src="https://github.com/Candyy1st/Undangan-Online/blob/main/BALL0424.jpg?raw=true"
+              alt="Gallery Tiga"
             />
           </div>
-          <div class="gallery_list fade-in-image">
-            <img
-              src="https://images.pexels.com/photos/752842/pexels-photo-752842.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
-            />
 
+          <div class="gallery_list">
             <img
-              src="https://images.pexels.com/photos/1488312/pexels-photo-1488312.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
+              src="https://github.com/Candyy1st/Undangan-Online/blob/main/BALL0256.JPG?raw=true"
+              alt="Gallery Empat"
             />
-
             <img
-              src="https://images.pexels.com/photos/1024968/pexels-photo-1024968.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
+              src="https://github.com/Candyy1st/Undangan-Online/blob/main/BALL0451.jpg?raw=true"
+              alt="Gallery Lima"
             />
-
             <img
-              src="https://images.pexels.com/photos/949223/pexels-photo-949223.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
+              src="https://github.com/Candyy1st/Undangan-Online/blob/main/BALL0457.JPG?raw=true"
+              alt="Gallery Enam"
             />
-
             <img
-              src="https://images.pexels.com/photos/1488324/pexels-photo-1488324.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt="gallery pertama"
+              src="https://github.com/Candyy1st/Undangan-Online/blob/main/BALL0406.JPG?raw=true"
+              alt="Gallery Tujuh"
             />
           </div>
         </div>
       </section>
-
-      <!-- GALLERY END -->
+      <!-- END GALLERY -->
     </main>
 
     <footer>
-      <p>Design By</p>
-      <h2>Abdul Muthalib</h2>
-      <p>0813-1494-2012</p>
-
-
-      <iframe
-       width="1"
-       height="1"
-       src="https://www.youtube.com/embed/71SvPulAyZI?autoplay=1&amp;start=3"
-       frameborder="0"
-       allowfullscreen></iframe>
+      <p>Design By Candradewa</p>
+      <h3>Contact Persion "0857828****7"</h3>
     </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./script.js"></script>
   </body>
 </html>
